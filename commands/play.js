@@ -7,7 +7,6 @@ const https = require("https");
 const { YOUTUBE_API_KEY, SOUNDCLOUD_CLIENT_ID, LOCALE, DEFAULT_VOLUME, SPOTIFY_CLIENT_ID, SPOTIFY_SECRET_ID } = require("../util/Util");
 const spotifyURI = require('spotify-uri');
 const Spotify = require('node-spotify-api');
-const i18n = require("i18n");
 
 const youtube = new YouTubeAPI(YOUTUBE_API_KEY);
 const spotify = new Spotify({
