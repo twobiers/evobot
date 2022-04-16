@@ -1,9 +1,7 @@
 const blacklistModel = require('../schemas/blacklist');
 const { MessageEmbed } = require('discord.js');
 const { LOCALE, MONGODB_URI } = require("../util/EvobotUtil");
-const i18n = require("i18n");
-
-i18n.setLocale(LOCALE);
+const i18n = require("../util/i18n");
 
 module.exports = {
     name: 'blacklist',
